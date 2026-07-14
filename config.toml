@@ -1,0 +1,38 @@
+baseURL = "https://nguyenducvi.github.io/NguyenDucViet/"
+relativeURLs = false
+canonifyURLs = false
+defaultContentLanguage = "en"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-learn"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "workshop"
+  # Git hub repo link
+  editURL = ""
+  description = ""
+  author = "TTV Team"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  
+[Languages]
+[Languages.en]
+title = "TechBlog AWS Workshop Report"
+weight = 1
+label = "English"
+
+[Languages.vi]
+title = "Báo cáo Workshop AWS TechBlog"
+weight = 2
+label = "Tiếng Việt"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
