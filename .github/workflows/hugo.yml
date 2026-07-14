@@ -36,7 +36,7 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-        run: hugo --minify --baseURL "https://nguyenducvi.github.io/NguyenDucViet/"
+        run: hugo --minify --baseURL "https://nguyenducvi.github.io/"
 
       - name: Publish gh-pages branch
         uses: peaceiris/actions-gh-pages@v4

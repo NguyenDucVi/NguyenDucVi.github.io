@@ -1,4 +1,4 @@
-baseURL = "https://nguyenducvi.github.io/NguyenDucViet/"
+baseURL = "https://nguyenducvi.github.io/"
 relativeURLs = false
 canonifyURLs = true
 defaultContentLanguage = "en"
