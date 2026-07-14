@@ -54,14 +54,14 @@
                   value="{{ .RelPermalink }}"
                   selected
                 >
-                  {{ .Language.Label }}
+                  {{ .Language.LanguageName }}
                 </option>
                 {{ else }}
                 <option
                   id="{{ .Language.Lang }}"
                   value="{{ .RelPermalink }}"
                 >
-                  {{ .Language.Label }}
+                  {{ .Language.LanguageName }}
                 </option>
                 {{ end }}
                 {{ end }}

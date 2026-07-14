@@ -25,12 +25,12 @@ home = [ "HTML", "RSS", "JSON"]
 [Languages.en]
 title = "TechBlog AWS Workshop Report"
 weight = 1
-label = "English"
+languageName = "English"
 
 [Languages.vi]
 title = "Báo cáo Workshop AWS TechBlog"
 weight = 2
-label = "Tiếng Việt"
+languageName = "Tiếng Việt"
 
 [markup]
   [markup.goldmark]
